@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "studying.cats.lab1_semak7"
+    namespace = "studying.cats.lab3_semak7"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "studying.cats.lab1_semak7"
+        applicationId = "studying.cats.lab3_semak7"
         minSdk = 34
         targetSdk = 36
         versionCode = 1
@@ -32,11 +32,11 @@ android {
         compose = true
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_16
-        targetCompatibility = JavaVersion.VERSION_16
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "16"
+        jvmTarget = "17"
     }
 }
 

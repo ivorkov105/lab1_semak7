@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "lab1_semak7"
+rootProject.name = "lab3_semak7"
 include(":app")
 include(":headers_list")
